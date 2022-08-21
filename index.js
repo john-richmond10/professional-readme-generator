@@ -62,10 +62,10 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer
     .prompt(questions)
-    .then((answers) => writeToFile(README.md), answers)
+    .then((answers) => writeToFile('README.md', answers))
     .then(() => console.log('README generated successfully!'))
-    .catch((err) => console.err(err));
+    .catch((err) => console.error(err));
 }
 
 // Function call to initialize app
-init();
+init()
