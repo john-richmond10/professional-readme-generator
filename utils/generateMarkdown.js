@@ -104,7 +104,7 @@ function generateMarkdown(data) {
   ## [Contribution](#contribution)
   ${data.contribution}
   ## [Testing](#testing)
-  ${data.test}
+  ${data.testing}
   ## [License](#license)
   Please view this link : ${renderLicenseLink(data.license)} to receive further information about the license for this project.
   ## [Contact](#contact)
